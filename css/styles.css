@@ -1,0 +1,57 @@
+body {
+  background-color: gray;
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer div img {
+  display: block;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+footer div {
+  flex: 1;
+  text-align: right;
+}
