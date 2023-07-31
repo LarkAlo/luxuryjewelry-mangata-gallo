@@ -31,9 +31,11 @@ h1 {
 .promo {
   min-height: 25vh;
   margin-left: 1%;
+  margin-right: 1%;
   padding: 1%;
   display: flex;
   background: url(/images//background.jpg);
+  opacity: 0.9;
   background-size: cover;
   background-position: center;
   border-radius: 15px 50px 30px 15px;
@@ -116,6 +118,7 @@ article {
   height: 100%;
   overflow: hidden;
   padding: 75px;
+  margin-top: 40px;
   border-radius: 15px 50px 30px 15px;
 }
 
