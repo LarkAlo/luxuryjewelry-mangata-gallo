@@ -15,6 +15,12 @@ h2 {
   font-size: 2rem;
 }
 
+article > img {
+    display:flex;
+    max-width: 100%;
+    max-height: 70%;
+}
+
 header > img {
   display: block;
   margin-left: auto;
