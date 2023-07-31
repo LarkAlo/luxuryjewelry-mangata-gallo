@@ -70,8 +70,8 @@ article {
 
 .earrings {
   border-radius: 50px 50px 50px 50px;
-  background: grey;
-  margin: auto 5px;
+  background: grey opacity;
+  margin: 50px 50px 10px 15px;
 }
 
 .earrings img {
@@ -87,8 +87,8 @@ article {
 
 .ring {
   border-radius: 50px 50px 50px 50px;
-  background: grey;
-  margin: auto 5px;
+  background: grey opacity;
+  margin: 50px 50px 10px 10px;
 }
 
 .ring img {
@@ -104,8 +104,8 @@ article {
 
 .diamond {
   border-radius: 50px 50px 50px 50px;
-  background: grey;
-  margin: auto 5px;
+  background: grey opacity;
+  margin: 50px 50px 10px 15px;
 }
 
 .diamond img {
@@ -126,15 +126,17 @@ footer {
 footer div img {
   display: block;
   margin-right: auto;
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 10%;
+  max-height: 15%;
+  margin-top: 15%;
+  margin-left: 5%;
 }
 
 footer div {
   flex: 1;
-  text-align: right;
 }
 
 footer p {
   text-align: right;
+  margin-top: 15%;
 }
