@@ -3,13 +3,12 @@ body {
   font-family: "Markazi Text", serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 nav {
-  background-color: grey;
-  font-size: 40px;
+  font-size: 25px;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 2%;
@@ -29,24 +28,28 @@ h1 {
   color: white;
 }
 
+.promo {
+  min-height: 25vh;
+  margin-left: 1%;
+  padding: 1%;
+  display: flex;
+  background: url(/images//background.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 50px 30px 15px;
+  text-align: left;
+}
+
 h2 {
   font-size: 2rem;
   color: white;
+  text-align: center;
+  margin: auto;
 }
 
 p {
   color: white;
-}
-
-article > img {
-  display: flex;
-  max-width: 100%;
-  max-height: 70%;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  padding: 2.3%;
-  margin: 5%;
+  text-align: center;
 }
 
 header > img {
@@ -65,6 +68,57 @@ article {
   flex: 1;
 }
 
+.earrings {
+  border-radius: 50px 50px 50px 50px;
+  background: grey;
+  margin: auto 5px;
+}
+
+.earrings img {
+  display: flex;
+  max-width: 70%;
+  max-height: 70%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 75px;
+  border-radius: 15px 50px 30px 15px;
+}
+
+.ring {
+  border-radius: 50px 50px 50px 50px;
+  background: grey;
+  margin: auto 5px;
+}
+
+.ring img {
+  display: flex;
+  max-width: 70%;
+  max-height: 70%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 75px;
+  border-radius: 15px 50px 30px 15px;
+}
+
+.diamond {
+  border-radius: 50px 50px 50px 50px;
+  background: grey;
+  margin: auto 5px;
+}
+
+.diamond img {
+  display: flex;
+  max-width: 70%;
+  max-height: 60%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 75px;
+  border-radius: 15px 50px 30px 15px;
+}
+
 footer {
   display: flex;
 }
@@ -78,5 +132,9 @@ footer div img {
 
 footer div {
   flex: 1;
+  text-align: right;
+}
+
+footer p {
   text-align: right;
 }
